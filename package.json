@@ -1,0 +1,32 @@
+{
+  "name": "jsonexpress",
+  "version": "1.0.0",
+  "description": "Simple JSON database",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "type": "module",
+  "bin": "./index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "node index --debug"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ngn13/jsonexpress.git"
+  },
+  "keywords": [
+    "database",
+    "json"
+  ],
+  "author": "ngn13",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ngn13/jsonexpress/issues"
+  },
+  "homepage": "https://github.com/ngn13/jsonexpress#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
