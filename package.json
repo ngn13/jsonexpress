@@ -10,7 +10,7 @@
   "bin": "./index.js",
   "scripts": {
     "start": "node index",
-    "test": "node index --debug"
+    "test": "node index --debug --show-token"
   },
   "repository": {
     "type": "git",
@@ -27,6 +27,7 @@
   },
   "homepage": "https://github.com/ngn13/jsonexpress#readme",
   "dependencies": {
+    "body-parser": "^1.20.1",
     "express": "^4.18.2"
   }
 }
